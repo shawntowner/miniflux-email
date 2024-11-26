@@ -20,10 +20,10 @@ jobs:
     - name: Check RSS updates and send them over email.
       env:
         MINIFLUX_URL: "https://reader.miniflux.app/v1/"
-        MINIFLUX_TOKEN: ${{ secrets.MINIFLUX_TOKEN }}
-        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-        SEND_TO: ${{ secrets.TO_EMAIL }}
+        MINIFLUX_TOKEN: ${{ secrets.b3B6BNLMh6Da9OMqMOgge6nq1j1TNKTaVKtpcmekLxA= }}
+        SMTP_USERNAME: ${{ secrets.towner@towner.blog }}
+        SMTP_PASSWORD: ${{ secrets.XfF3kQnx2%w&wA }}
+        SEND_TO: ${{ secrets.hey@shawntowner.com }}
         CGO_ENABLED: 0
         # CATEGORY: All
         LIMIT: 5
